@@ -12,6 +12,10 @@ enum Assets: String {
     case navigationIcon = "nav_icon_menu"
 }
 
+extension Notification.Name {
+    static let displaySlideMenu = Notification.Name("displaySlideMenu")
+}
+
 extension UIViewController {
     
     func addSlideMenu() {
@@ -22,5 +26,17 @@ extension UIViewController {
     
     func toggleMenu() {
         print("toggle menu")
+        NotificationCenter.default.post(name: Notification.Name.displaySlideMenu, object: nil)
+    }
+    
+    func presentWithPushAnimation(viewControllerToPresent: UIViewController, completion: (() -> Void)? = nil) {
+        let transition = CATransition()
+        transition.duration = 0.5
+        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        transition.type = kCATransitionPush
+        transition.subtype = kCATransitionFromRight
+        view.window?.layer.add(transition, forKey: nil)
+        
+        present(viewControllerToPresent, animated: false, completion: completion)
     }
 }

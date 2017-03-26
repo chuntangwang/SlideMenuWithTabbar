@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Member View Controller-->
+        <scene sceneID="Ey7-Gk-RAT">
+            <objects>
+                <viewController storyboardIdentifier="MemberViewController" id="1YS-aF-RkY" customClass="MemberViewController" customModule="SlideMenuWithTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7sr-fo-4cV"/>
+                        <viewControllerLayoutGuide type="bottom" id="OEq-pL-97q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i1Z-1M-ev0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Th9-NK-CuK">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Member" id="HvV-mV-ovu">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="dmh-QX-3HB">
+                                            <connections>
+                                                <action selector="dismiss:" destination="1YS-aF-RkY" id="5r4-Gs-0IT"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="i5J-Wi-CiI">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="i5J-Wi-CiI" firstAttribute="leading" secondItem="i1Z-1M-ev0" secondAttribute="leading" id="6pA-sx-gqR"/>
+                            <constraint firstItem="OEq-pL-97q" firstAttribute="top" secondItem="i5J-Wi-CiI" secondAttribute="bottom" id="M4N-Sn-cQy"/>
+                            <constraint firstItem="i5J-Wi-CiI" firstAttribute="top" secondItem="Th9-NK-CuK" secondAttribute="bottom" id="O9k-8f-egb"/>
+                            <constraint firstItem="Th9-NK-CuK" firstAttribute="top" secondItem="7sr-fo-4cV" secondAttribute="bottom" id="W2h-9K-aTt"/>
+                            <constraint firstItem="Th9-NK-CuK" firstAttribute="leading" secondItem="i1Z-1M-ev0" secondAttribute="leading" id="lBi-82-eIN"/>
+                            <constraint firstAttribute="trailing" secondItem="i5J-Wi-CiI" secondAttribute="trailing" id="naI-hF-XKh"/>
+                            <constraint firstAttribute="trailing" secondItem="Th9-NK-CuK" secondAttribute="trailing" id="sGb-08-rvq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Cz-vQ-XBb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="160"/>
+        </scene>
+    </scenes>
+</document>

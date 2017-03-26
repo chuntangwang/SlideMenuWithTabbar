@@ -8,8 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2438F3171E86DE09004B632A /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438F3161E86DE09004B632A /* ViewControllerExtension.swift */; };
+		2438F31D1E872575004B632A /* SlideMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2438F31C1E872575004B632A /* SlideMenuView.xib */; };
+		2438F31F1E87265E004B632A /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438F31E1E87265E004B632A /* SlideMenuView.swift */; };
+		2438F3211E872AC7004B632A /* SlideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438F3201E872AC7004B632A /* SlideMenuCell.swift */; };
+		2438F3281E87B74D004B632A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2438F3271E87B74D004B632A /* Profile.storyboard */; };
+		2438F32A1E87B761004B632A /* Member.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2438F3291E87B761004B632A /* Member.storyboard */; };
+		2438F32C1E87B777004B632A /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2438F32B1E87B777004B632A /* Setting.storyboard */; };
+		2438F32F1E87B903004B632A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438F32E1E87B903004B632A /* ProfileViewController.swift */; };
+		2438F3311E87BC7A004B632A /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438F3301E87BC7A004B632A /* MemberViewController.swift */; };
+		2438F3351E87BD78004B632A /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438F3341E87BD78004B632A /* SettingTableViewController.swift */; };
 		24769F611E86D8EA002A7A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24769F601E86D8EA002A7A54 /* AppDelegate.swift */; };
-		24769F631E86D8EA002A7A54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24769F621E86D8EA002A7A54 /* ViewController.swift */; };
+		24769F631E86D8EA002A7A54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24769F621E86D8EA002A7A54 /* LoginViewController.swift */; };
 		24769F661E86D8EA002A7A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24769F641E86D8EA002A7A54 /* Main.storyboard */; };
 		24769F681E86D8EA002A7A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24769F671E86D8EA002A7A54 /* Assets.xcassets */; };
 		24769F6B1E86D8EA002A7A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24769F691E86D8EA002A7A54 /* LaunchScreen.storyboard */; };
@@ -20,9 +29,18 @@
 
 /* Begin PBXFileReference section */
 		2438F3161E86DE09004B632A /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		2438F31C1E872575004B632A /* SlideMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideMenuView.xib; sourceTree = "<group>"; };
+		2438F31E1E87265E004B632A /* SlideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
+		2438F3201E872AC7004B632A /* SlideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuCell.swift; sourceTree = "<group>"; };
+		2438F3271E87B74D004B632A /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		2438F3291E87B761004B632A /* Member.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Member.storyboard; sourceTree = "<group>"; };
+		2438F32B1E87B777004B632A /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		2438F32E1E87B903004B632A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2438F3301E87BC7A004B632A /* MemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		2438F3341E87BD78004B632A /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		24769F5D1E86D8EA002A7A54 /* SlideMenuWithTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenuWithTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24769F601E86D8EA002A7A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24769F621E86D8EA002A7A54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24769F621E86D8EA002A7A54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		24769F651E86D8EA002A7A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24769F671E86D8EA002A7A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24769F6A1E86D8EA002A7A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +61,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2438F3221E87B359004B632A /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2438F31E1E87265E004B632A /* SlideMenuView.swift */,
+				2438F3201E872AC7004B632A /* SlideMenuCell.swift */,
+				2438F31C1E872575004B632A /* SlideMenuView.xib */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		2438F3241E87B37A004B632A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				24769F721E86DCCE002A7A54 /* MainViewController.swift */,
+				24769F741E86DD5E002A7A54 /* FirstViewController.swift */,
+				24769F761E86DD73002A7A54 /* SecondViewController.swift */,
+				24769F641E86D8EA002A7A54 /* Main.storyboard */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		2438F3251E87B39D004B632A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				24769F671E86D8EA002A7A54 /* Assets.xcassets */,
+				24769F691E86D8EA002A7A54 /* LaunchScreen.storyboard */,
+				24769F6C1E86D8EA002A7A54 /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		2438F3261E87B4C2004B632A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2438F3161E86DE09004B632A /* ViewControllerExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		2438F32D1E87B7BC004B632A /* MenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				2438F3271E87B74D004B632A /* Profile.storyboard */,
+				2438F3291E87B761004B632A /* Member.storyboard */,
+				2438F32B1E87B777004B632A /* Setting.storyboard */,
+				2438F32E1E87B903004B632A /* ProfileViewController.swift */,
+				2438F3301E87BC7A004B632A /* MemberViewController.swift */,
+				2438F3341E87BD78004B632A /* SettingTableViewController.swift */,
+			);
+			name = MenuItem;
+			sourceTree = "<group>";
+		};
 		24769F541E86D8EA002A7A54 = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +132,13 @@
 		24769F5F1E86D8EA002A7A54 /* SlideMenuWithTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				2438F3261E87B4C2004B632A /* Extension */,
+				2438F3241E87B37A004B632A /* TabBar */,
+				2438F3221E87B359004B632A /* SlideMenu */,
+				2438F32D1E87B7BC004B632A /* MenuItem */,
+				2438F3251E87B39D004B632A /* Others */,
 				24769F601E86D8EA002A7A54 /* AppDelegate.swift */,
-				24769F621E86D8EA002A7A54 /* ViewController.swift */,
-				24769F641E86D8EA002A7A54 /* Main.storyboard */,
-				24769F671E86D8EA002A7A54 /* Assets.xcassets */,
-				24769F691E86D8EA002A7A54 /* LaunchScreen.storyboard */,
-				24769F6C1E86D8EA002A7A54 /* Info.plist */,
-				24769F721E86DCCE002A7A54 /* MainViewController.swift */,
-				24769F741E86DD5E002A7A54 /* FirstViewController.swift */,
-				24769F761E86DD73002A7A54 /* SecondViewController.swift */,
-				2438F3161E86DE09004B632A /* ViewControllerExtension.swift */,
+				24769F621E86D8EA002A7A54 /* LoginViewController.swift */,
 			);
 			path = SlideMenuWithTabbar;
 			sourceTree = "<group>";
@@ -108,6 +175,7 @@
 				TargetAttributes = {
 					24769F5C1E86D8EA002A7A54 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U25QYW68AT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +204,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				24769F6B1E86D8EA002A7A54 /* LaunchScreen.storyboard in Resources */,
+				2438F32A1E87B761004B632A /* Member.storyboard in Resources */,
 				24769F681E86D8EA002A7A54 /* Assets.xcassets in Resources */,
 				24769F661E86D8EA002A7A54 /* Main.storyboard in Resources */,
+				2438F31D1E872575004B632A /* SlideMenuView.xib in Resources */,
+				2438F3281E87B74D004B632A /* Profile.storyboard in Resources */,
+				2438F32C1E87B777004B632A /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +224,13 @@
 				24769F751E86DD5E002A7A54 /* FirstViewController.swift in Sources */,
 				2438F3171E86DE09004B632A /* ViewControllerExtension.swift in Sources */,
 				24769F771E86DD73002A7A54 /* SecondViewController.swift in Sources */,
-				24769F631E86D8EA002A7A54 /* ViewController.swift in Sources */,
+				2438F3211E872AC7004B632A /* SlideMenuCell.swift in Sources */,
+				24769F631E86D8EA002A7A54 /* LoginViewController.swift in Sources */,
+				2438F32F1E87B903004B632A /* ProfileViewController.swift in Sources */,
+				2438F3351E87BD78004B632A /* SettingTableViewController.swift in Sources */,
 				24769F611E86D8EA002A7A54 /* AppDelegate.swift in Sources */,
+				2438F3311E87BC7A004B632A /* MemberViewController.swift in Sources */,
+				2438F31F1E87265E004B632A /* SlideMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U25QYW68AT;
 				INFOPLIST_FILE = SlideMenuWithTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuntangwang.SlideMenuWithTabbar;
@@ -286,6 +364,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = U25QYW68AT;
 				INFOPLIST_FILE = SlideMenuWithTabbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuntangwang.SlideMenuWithTabbar;

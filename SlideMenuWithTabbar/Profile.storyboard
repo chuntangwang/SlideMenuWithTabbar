@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="KEu-qo-2oX">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" id="gZt-1n-BGP" customClass="ProfileViewController" customModule="SlideMenuWithTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fJz-sm-dM6"/>
+                        <viewControllerLayoutGuide type="bottom" id="YPH-fw-Wd3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0oD-ot-XWY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBx-yV-qit">
+                                <rect key="frame" x="163" y="288" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4E-Zc-bB7">
+                                <rect key="frame" x="164" y="319" width="46" height="30"/>
+                                <state key="normal" title="Dimiss"/>
+                                <connections>
+                                    <action selector="dimiss:" destination="gZt-1n-BGP" eventType="touchUpInside" id="CYf-Xb-eAN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gBx-yV-qit" firstAttribute="centerX" secondItem="0oD-ot-XWY" secondAttribute="centerX" id="6OB-3w-XZp"/>
+                            <constraint firstItem="B4E-Zc-bB7" firstAttribute="centerY" secondItem="0oD-ot-XWY" secondAttribute="centerY" id="QDp-PA-3bf"/>
+                            <constraint firstItem="B4E-Zc-bB7" firstAttribute="top" secondItem="gBx-yV-qit" secondAttribute="bottom" constant="10" id="lD2-DD-0gG"/>
+                            <constraint firstItem="B4E-Zc-bB7" firstAttribute="centerX" secondItem="0oD-ot-XWY" secondAttribute="centerX" id="r6c-7d-9XY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VVI-yy-3J4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-151.19999999999999" y="153.37331334332833"/>
+        </scene>
+    </scenes>
+</document>
